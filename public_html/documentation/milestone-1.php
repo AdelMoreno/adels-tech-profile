@@ -2,10 +2,12 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../../styles.css">
 		<title>Adel's Web Development </title>
 	</head>
 	<body>
-		<img src="/elizabeth.jpg">
+		<img src="elizabeth%20samuels.jpg" class="elizabeth" alt="Elizabeth">
+		<div class="text">
 		<h1>Purpose, Audience, and Goal</h1>
 		<ul>
 			<li>Purpose&#58; To present my web development skills to potential employers, and in doing so gain full time employment.</li>
@@ -36,15 +38,16 @@
 			<li>Goal&#58; <p>To hire a new employee who has the drive to learn and help the company grow.</p></li>
 			<li>User Story&#58; <p>Elizabeth is looking for a candidate that has some training and a website to show off what they know.</p></li>
 			<li>Scenario&#58;
-				<ul>
-					<li>1. Elizabeth will navigate to my website via Linkedin.</li>
-					<li>2. She will see a link to my Github as well as a link to download a PDF for my resume.</li>
-					<li>3. She will click on the link to my resume and it will start the download automatically.</li>
-					<li>4. She will look over my Resume and be impressed that I graduated from Deep Dive Coding.</li>
-					<li>5. She will then explore my website further and will notice that I have a box containing preview pictures of projects I've worked on.</li>
-					<li>6. She will be very impressed and will use the phone number on my resume to schedule an interview!</li>
-				</ul>
+				<ol>
+					<li> Elizabeth will navigate to my website via Linkedin.</li>
+					<li> She will see a link to my Github as well as a link to download a PDF for my resume.</li>
+					<li> She will click on the link to my resume and it will start the download automatically.</li>
+					<li> She will look over my Resume and be impressed that I graduated from Deep Dive Coding.</li>
+					<li> She will then explore my website further and will notice that I have a box containing preview pictures of projects I've worked on.</li>
+					<li> She will be very impressed and will use the phone number on my resume to schedule an interview!</li>
+				</ol>
 			</li>
 		</ul>
+		</div>
 	</body>
 </html>
