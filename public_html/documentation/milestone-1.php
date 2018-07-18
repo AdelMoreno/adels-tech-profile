@@ -5,6 +5,7 @@
 		<title>Adel's Web Development </title>
 	</head>
 	<body>
+		<img src="/elizabeth.jpg">
 		<h1>Purpose, Audience, and Goal</h1>
 		<ul>
 			<li>Purpose&#58; To present my web development skills to potential employers, and in doing so gain full time employment.</li>
@@ -33,6 +34,7 @@
 				Unable to find someone willing to relocate.
 				Unable to find someone who has an open mind when it comes to different coding styles.</p></li>
 			<li>Goal&#58; <p>To hire a new employee who has the drive to learn and help the company grow.</p></li>
+			<li>User Story&#58; <p>Elizabeth is looking for a candidate that has some training and a website to show off what they know.</p></li>
 			<li>Scenario&#58;
 				<ul>
 					<li>1. Elizabeth will navigate to my website via Linkedin.</li>
