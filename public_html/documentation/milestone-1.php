@@ -2,11 +2,11 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="../../styles.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
 		<title>Adel's Web Development </title>
 	</head>
 	<body>
-		<img src="../../elizabeth%20samuels.jpg" class="elizabeth" alt="Elizabeth">
+		<img src="elizabeth-samuels.jpg" class="elizabeth" alt="Elizabeth">
 		<div class="text">
 			<h1>Purpose, Audience, and Goal</h1>
 			<ul>
