@@ -17,6 +17,6 @@
 				that will allow someone to fill out some information and send me a message via e-mail.
 			</p>
 		<img src="page-1.png" alt="wireframe-1"
-		<img src="page-2.png" alt="wirefram-2">
+		<img src="page-2.png" alt="wireframe-2">
 	</body>
 	</html>
