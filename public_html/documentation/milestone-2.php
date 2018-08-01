@@ -13,7 +13,7 @@
 				I will also list the languages that I have a basic understanding of. I will also include some of interests to help let my personality shine through.<br>
 				<b>Portfolio&#58;</b> This section will have an interactive image gallery of my best projects. I would like to incorporate
 				photo bucket somehow.<br>
-				<b>Contact</b> This section will have icons and links to my GitHub, Twitter, and LinkedIn. I will also have a contact form
+				<b>Contact&#58;</b> This section will have icons and links to my GitHub, Twitter, and LinkedIn. I will also have a contact form
 				that will allow someone to fill out some information and send me a message via e-mail.
 			</p>
 		<img src="page-1.png" alt="wireframe-1">
