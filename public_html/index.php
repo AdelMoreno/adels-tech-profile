@@ -25,19 +25,75 @@
 					<p>Web Developer</p>
 				</div>
 			</div>
+			<nav class="navbar navbar-expand-md navbar-light bg-light">
+				<a class="navbar-brand" href="#"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About Me</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
 		</header>
-		<div class="container">
+		<div class="container text-center">
 			<div class="row">
-				<div class="col-md align-self-center">
+				<div class="col-md">
 			<h2>About Me</h2>
 				</div>
 			</div>
 		</div>
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-md">
+			<p>This area will be all about me!</p>
+			</div>
+		</div>
+		</div>
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-md">
+					<h2>Portfolio</h2>
+				</div>
+			</div>
+		</div>
+		<main class="container mt-3">
+			<div class="row">
+				<div class="col-md-3">
+					<img class="img-fluid rounded-circle mb-2" src="https://placedog.net/320" alt="dog">
+				</div>
+				<div class="col-md-3">
+					<img class="img-fluid rounded-circle mb-2" src="https://placedog.net/580" alt="dog">
+				</div>
+				<div class="col-md-3">
+					<img class="img-fluid rounded-circle mb-2" src="https://placedog.net/610" alt="dog">
+				</div>
+				<div class="col-md-3">
+					<img class="img-fluid rounded-circle mb-2" src="https://placedog.net/700" alt="dog">
+				</div>
+			</div>
+		</main>
 		<div class="container">
 			<div class="row">
-				<div class="col-md align-self-center">
-			<p>This area will be all about me!</p>
-		</div>
-	</div>
+				<div class="col-md-5">
+
+				</div>
+				<div class="col-md-7">
+
+				</div>
+			</div>
 		</div>
 	</body>
