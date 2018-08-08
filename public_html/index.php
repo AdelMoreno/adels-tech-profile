@@ -13,7 +13,7 @@
 	</head>
 	<body>
 
-		<header class="container">
+		<header class="container-fluid" id="home">
 			<div class="row">
 				<div class="col-md-2">
 					<img class="img-fluid p-3" src="img_adel.jpg">
@@ -25,7 +25,7 @@
 					<p>Web Developer</p>
 				</div>
 			</div>
-			<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<nav class="navbar navbar-expand-md">
 				<a class="navbar-brand" href="#"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -34,66 +34,104 @@
 				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a class="nav-link" href="#">Home</a>
+							<a class="nav-link" href="#home">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">About Me</a>
+							<a class="nav-link" href="#about">About Me</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Portfolio</a>
+							<a class="nav-link" href="#portfolio">Portfolio</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Contact</a>
+							<a class="nav-link" href="#contact">Contact</a>
 						</li>
 					</ul>
 				</div>
 			</nav>
 		</header>
-		<div class="container text-center">
+		<div class="container-fluid text-center">
 			<div class="row">
 				<div class="col-md">
-			<h2>About Me</h2>
+			<h2 id="about">About Me</h2>
 				</div>
 			</div>
 		</div>
-		<div class="container text-center">
+		<div class="container-fluid text-center">
 			<div class="row">
 				<div class="col-md">
 			<p>This area will be all about me!</p>
 			</div>
 		</div>
 		</div>
-		<div class="container text-center">
+		<div class="container-fluid text-center">
 			<div class="row">
 				<div class="col-md">
-					<h2>Portfolio</h2>
+					<h2 id="portfolio">Portfolio</h2>
 				</div>
 			</div>
 		</div>
-		<main class="container mt-3">
-			<div class="row">
-				<div class="col-md-3">
-					<img class="img-fluid rounded-circle mb-2" src="https://placedog.net/320" alt="dog">
-				</div>
-				<div class="col-md-3">
-					<img class="img-fluid rounded-circle mb-2" src="https://placedog.net/580" alt="dog">
-				</div>
-				<div class="col-md-3">
-					<img class="img-fluid rounded-circle mb-2" src="https://placedog.net/610" alt="dog">
-				</div>
-				<div class="col-md-3">
-					<img class="img-fluid rounded-circle mb-2" src="https://placedog.net/700" alt="dog">
-				</div>
-			</div>
-		</main>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-5">
-
-				</div>
-				<div class="col-md-7">
-
-				</div>
+	<div class="card-deck text-center">
+		<div class="card">
+			<img class="card-img-top" src="https://placedog.net/520" alt="dog">
+			<div class="card-body">
+				<p class="card-text">This will be the description</p>
 			</div>
 		</div>
+		<div class="card">
+			<img class="card-img-top" src="https://placedog.net/520" alt="dog">
+			<div class="card-body">
+				<p class="card-text">This will be the description</p>
+			</div>
+		</div>
+		<div class="card">
+			<img class="card-img-top" src="https://placedog.net/520" alt="dog">
+			<div class="card-body">
+				<p class="card-text">This will be the description</p>
+			</div>
+		</div>
+		<div class="card">
+			<img class="card-img-top" src="https://placedog.net/520" alt="dog">
+			<div class="card-body">
+				<p class="card-text">This will be the description</p>
+			</div>
+		</div>
+	</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4 text-center">
+					<h2 id="contact">Contact</h2>
+				</div>
+			<form class="col-md-6 ml-auto mt-2">
+				<div class="form-group">
+					<div class="col-md-8">
+						<input type="text" class="form-control" placeholder="Name" required>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-md-8">
+						<input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-md-8">
+						<input type="text" class="form-control" placeholder="Subject" required>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-md-8">
+						<textarea class="form-control" placeholder="Message" rows="4" required></textarea>
+					</div>
+				</div>
+				<div class="text-right col-md-8">
+				<button class="btn btn-primary" type="submit">Submit</button>
+				</div>
+			</form>
+		</div>
+			<footer class="container-fluid">
+				<div class="row">
+					<div class="col-md text-center">
+					<p>&copy; Adel Moreno 2018</p>
+					</div>
+				</div>
+			</footer>
 	</body>
