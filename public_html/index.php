@@ -18,10 +18,10 @@
 				<div class="col-md-2">
 					<img class="img-fluid p-3" src="img_adel.jpg">
 				</div>
-				<div class="col-md-7 align-self-center align-right">
+				<div class="col-md-3 align-self-center ml-auto">
 					<p>Adel Moreno</p>
 				</div>
-				<div class="col-md-2 align-self-center">
+				<div class="col-md-2 align-self-center mr-auto">
 					<p>Web Developer</p>
 				</div>
 			</div>

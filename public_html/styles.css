@@ -1,3 +1,5 @@
+
+
 .elizabeth {
 	position: absolute;
 	left:700px;
@@ -8,7 +10,11 @@
 	top:200px;
 }
 
-header{
-	background-color: aqua;
-	text-align: center;
+
+header {
+	background-image: url("tree.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: 100% auto;
 }
