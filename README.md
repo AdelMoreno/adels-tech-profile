@@ -17,6 +17,7 @@ Your wireframes are clean and easy to understand. The only issue with the wirefr
 ### Content Strategy
 Im a little confused about how you want to incorporate photo bucket. Is that where you want to store your images? I am not aware of any third party UI plugins maintained by Photobucket. I also would have liked to see more detail about styling in your content strategy.
 ## Design Tips
+I reccomend you spend a little more time to layout what your image gallery will look like. It is extremely important to have a clear vision what you hope to accomplish when begining development.
  ## Useful Links
 * Font Awesome: https://fontawesome.com/
 * CSS Tricks: https://css-tricks.com/
