@@ -1,4 +1,11 @@
-
+body {
+	background-image: url("whale.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	font-family: "Courier New", sans-serif;
+}
 
 .elizabeth {
 	position: absolute;
@@ -11,10 +18,16 @@
 }
 
 
-header {
-	background-image: url("tree.jpg");
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-attachment: fixed;
-	background-size: 100% auto;
+#about {
+	 polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+img[src*="adel"]{
+	border-radius: 50%;
+}
+
+div[class*="header-text"]{
+	font-weight: bold;
+	font-size: 3em;
 }

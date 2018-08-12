@@ -18,10 +18,10 @@
 				<div class="col-md-2">
 					<img class="img-fluid p-3" src="img_adel.jpg">
 				</div>
-				<div class="col-md-3 align-self-center ml-auto">
+				<div class="header-text col-md-3 align-self-center ml-auto">
 					<p>Adel Moreno</p>
 				</div>
-				<div class="col-md-2 align-self-center mr-auto">
+				<div class="header-text col-md-2 align-self-center mr-auto">
 					<p>Web Developer</p>
 				</div>
 			</div>
@@ -70,32 +70,29 @@
 				</div>
 			</div>
 		</div>
-	<div class="card-deck text-center">
-		<div class="card">
-			<img class="card-img-top" src="https://placedog.net/520" alt="dog">
-			<div class="card-body">
-				<p class="card-text">This will be the description</p>
+		<div class="container-fluid text-center">
+		<div id="carousel" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="d-block w-100" src="tree.jpg" alt="First slide">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="http://placekitten.com/250/200" alt="Second slide">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="http://placekitten.com/280/200" alt="Third slide">
+				</div>
 			</div>
+			<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
 		</div>
-		<div class="card">
-			<img class="card-img-top" src="https://placedog.net/520" alt="dog">
-			<div class="card-body">
-				<p class="card-text">This will be the description</p>
-			</div>
 		</div>
-		<div class="card">
-			<img class="card-img-top" src="https://placedog.net/520" alt="dog">
-			<div class="card-body">
-				<p class="card-text">This will be the description</p>
-			</div>
-		</div>
-		<div class="card">
-			<img class="card-img-top" src="https://placedog.net/520" alt="dog">
-			<div class="card-body">
-				<p class="card-text">This will be the description</p>
-			</div>
-		</div>
-	</div>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-4 text-center">
