@@ -34,13 +34,13 @@
 				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a class="nav-link" href="#home">Home</a>
+							<a class="nav-link" href="#home">Home |</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#about">About Me</a>
+							<a class="nav-link" href="#about">About Me |</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#portfolio">Portfolio</a>
+							<a class="nav-link" href="#portfolio">Portfolio |</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#contact">Contact</a>
@@ -52,7 +52,7 @@
 		<div class="container-fluid text-center">
 			<div class="row">
 				<div class="col-md">
-			<h2 id="about">About Me</h2>
+			<h2 class="section-text" id="about">About Me</h2>
 				</div>
 			</div>
 		</div>
@@ -66,7 +66,7 @@
 		<div class="container-fluid text-center">
 			<div class="row">
 				<div class="col-md">
-					<h2 id="portfolio">Portfolio</h2>
+					<h2 class="section-text" id="portfolio">Portfolio</h2>
 				</div>
 			</div>
 		</div>
@@ -96,7 +96,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-4 text-center">
-					<h2 id="contact">Contact</h2>
+					<h2 class="section-text" id="contact">Contact</h2>
 				</div>
 			<form class="col-md-6 ml-auto mt-2">
 				<div class="form-group">

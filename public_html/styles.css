@@ -17,11 +17,12 @@ body {
 	top:200px;
 }
 
-
-#about {
-	 polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-	clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+.section-text {
+	font-weight: bold;
+	font-size: 3em;
 }
+
+
 
 img[src*="adel"]{
 	border-radius: 50%;
@@ -30,4 +31,9 @@ img[src*="adel"]{
 div[class*="header-text"]{
 	font-weight: bold;
 	font-size: 3em;
+}
+
+.nav-item{
+	font-weight: bold;
+	font-size: 1em;
 }
