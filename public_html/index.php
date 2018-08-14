@@ -15,7 +15,7 @@
 	</head>
 	<body>
 
-		<header class="container-fluid mb-5" id="home">
+		<header class="container-fluid" id="home">
 			<div class="row">
 				<div class="col-md-2">
 					<img class="img-fluid p-3" src="img_adel.jpg">
@@ -54,28 +54,29 @@
 				</div>
 			</nav>
 		</header>
-		<div class="container-fluid text-center">
+		<div class="container-fluid text-center about-me pb-5">
 			<div class="row">
 				<div class="col-md">
-			<h2 class="section-text" id="about">About Me</h2>
+			<h2 class="section-text" id="about">About Me</h2><br>
+					<p>this area will be about me!</p>
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid text-center mb-5">
-			<div class="row">
-				<div class="col-md">
-			<p>This area will be all about me!</p>
-			</div>
-		</div>
-		</div>
-		<div class="container-fluid text-center">
+<!--		<div class="container-fluid text-center about-me mb-5">-->
+<!--			<div class="row">-->
+<!--				<div class="col-md">-->
+<!--			<p>This area will be all about me!</p>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--		</div>-->
+		<div class="container-fluid text-center portfolio">
 			<div class="row">
 				<div class="col-md">
 					<h2 class="section-text" id="portfolio">Portfolio</h2>
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid text-center mb-5">
+		<div class="container-fluid text-center portfolio mb-5">
 		<div id="carousel" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
