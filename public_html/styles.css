@@ -1,5 +1,4 @@
 body {
-	/*background-image: url("nature.jpg");*/
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100% 100%;
@@ -48,24 +47,10 @@ div[class*="header-text"]{
 	font-size: 1em;
 }
 
-/*img[src*="slide"] {*/
-	/*width: 5em;*/
-	/*height: 5em;*/
-/*}*/
-
 .carousel-inner img {
 	width: 100%;
 	height: 30em;
 	margin: auto;
-}
-
-div[class*="about-me"] {
-	/*background-color: #34ADFF;
-	background-image: -webkit-linear-gradient(30deg, #9C0561 50%, #9C05A6 50%);*/
-}
-
-div[class*="portfolio"] {
-
 }
 
 footer {
