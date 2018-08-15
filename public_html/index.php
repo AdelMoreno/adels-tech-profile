@@ -18,7 +18,7 @@
 		<header class="container-fluid" id="home">
 			<div class="row">
 				<div class="col-md-2">
-					<img class="img-fluid p-3" src="img_adel.jpg">
+					<img class="img-fluid ml-6 p-3" src="img_adel.jpg">
 				</div>
 				<div class="header-text col-md-3 align-self-center ml-auto">
 					<p>Adel Moreno</p>
@@ -101,14 +101,14 @@
 		</div>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-4 text-center align-middle">
+				<div class="col-md-4 text-center">
 					<h2 class="section-text" id="contact">Contact</h2>
 					<i class="fab fa-github-alt fa-spin fa-2x mr-1"></i>
-					<a href="https://github.com/AdelMoreno">Github</a><br>
+					<a class="contact-links" href="https://github.com/AdelMoreno">Github</a><br>
 					<i class="fab fa-linkedin fa-spin fa-2x mt-4 mr-2"></i>
-					<a href="https://www.linkedin.com/in/adel-moreno-129474165/">LinkedIn</a><br>
+					<a class="contact-links" href="https://www.linkedin.com/in/adel-moreno-129474165/">LinkedIn</a><br>
 					<i class="fab fa-twitter-square fa-spin fa-2x mt-4 mr-2"></i>
-					<a href="https://twitter.com/AdelMoreno5">Twitter</a>
+					<a class="contact-links" href="https://twitter.com/AdelMoreno5">Twitter</a>
 				</div>
 			<form class="col-md-6 ml-auto mt-2">
 				<div class="form-group">
@@ -137,7 +137,7 @@
 			</form>
 		</div>
 		</div>
-			<footer class="container-fluid">
+			<footer class="container-fluid pt-3 mt-4">
 				<div class="row">
 					<div class="col-md text-center">
 					<p>&copy; Adel Moreno 2018</p>
