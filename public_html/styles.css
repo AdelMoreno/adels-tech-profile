@@ -1,16 +1,15 @@
 body {
-	background-image: url("nature.jpg");
+	/*background-image: url("nature.jpg");*/
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100% 100%;
 	background-attachment: fixed;
 	font-family: FontAwesome, "Courier New", sans-serif;
-	color: white;
-
+background-color: #dbdbdb;
 }
 
 header {
-	background-color: black;
+	background-image: url("ocean.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100% 100%;
