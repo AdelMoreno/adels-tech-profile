@@ -16,24 +16,24 @@
 	<body>
 
 		<header class="container-fluid" id="home">
-			<div class="row">
+			<div class="row text-center">
 				<div class="col-md-2">
-					<img class="img-fluid ml-6 p-3" src="img_adel.jpg">
+					<img class="img-fluid ml-6 p-4" src="img_adel.jpg">
 				</div>
-				<div class="header-text col-md-3 align-self-center ml-auto">
+				<div class="header-text col-md-3 align-self-center ml-auto mr-auto">
 					<p>Adel Moreno</p>
 				</div>
-				<div class="header-text col-md-3 align-self-center mr-auto">
+				<div class="header-text col-md-7 align-self-center mr-auto ml-auto">
 					<p>Web Developer</p>
 				</div>
 			</div>
 			<nav class="navbar navbar-expand-md navbar-dark navbar-custom">
 				<a class="navbar-brand" href="#"></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 
-				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+				<div class="collapse navbar-collapse" id="navbarToggler">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
 							<a class="nav-link" href="#home">Home  <span> |</span></a>
