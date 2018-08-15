@@ -81,9 +81,10 @@ footer {
 	box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.40);
 }
 
-.btn-primary {
-	background-color: #437c76;
-	border-color: #437c76;
+.btn-primary,
+.btn-primary.active {
+	background-color: #437c76 !important;
+	border-color: #437c76 !important;
 }
 
 .btn-primary:hover {
