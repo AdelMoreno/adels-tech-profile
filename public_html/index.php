@@ -131,7 +131,7 @@
 						<textarea class="form-control" placeholder="Message" rows="4" required></textarea>
 					</div>
 				</div>
-				<div class="text-right col-md-8">
+				<div id="button" class="text-right col-md-8">
 				<button class="btn btn-primary" type="submit">Submit</button>
 				</div>
 			</form>

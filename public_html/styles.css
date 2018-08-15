@@ -84,3 +84,11 @@ footer {
 .contact-links {
 	color: black;
 }
+
+.form-control {
+	margin-left: 7em;
+}
+
+#button {
+	margin-left: 7em;
+}
