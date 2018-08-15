@@ -18,7 +18,7 @@
 		<header class="container-fluid" id="home">
 			<div class="row text-center">
 				<div class="col-md-2">
-					<img class="img-fluid ml-6 p-4" src="img_adel.jpg">
+					<img class="img-fluid ml-auto p-4" src="img_adel.jpg">
 				</div>
 				<div class="header-text col-md-3 align-self-center ml-auto mr-auto">
 					<p>Adel Moreno</p>
@@ -32,7 +32,6 @@
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-
 				<div class="collapse navbar-collapse" id="navbarToggler">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
@@ -54,7 +53,7 @@
 				</div>
 			</nav>
 		</header>
-		<div class="container-fluid text-center about-me pb-5">
+		<div class="container-fluid text-center about-me mt-4 pb-5">
 			<div class="row">
 				<div class="col-md">
 			<h2 class="section-text" id="about">About Me</h2><br>
