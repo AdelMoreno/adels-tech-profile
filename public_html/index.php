@@ -95,11 +95,11 @@
 			<div class="row">
 				<div class="col-md-4 text-center">
 					<h2 class="section-text" id="contact">Contact</h2>
-					<i class="fab fa-github-alt fa-spin fa-2x mr-1"></i>
+					<i class="fab fa-github-alt fa-spin fa-2x mt-2 mr-1"></i>
 					<a class="contact-links" href="https://github.com/AdelMoreno">Github</a><br>
-					<i class="fab fa-linkedin fa-spin fa-2x mt-4 mr-2"></i>
+					<i class="fab fa-linkedin fa-spin fa-2x mt-5 mr-2"></i>
 					<a class="contact-links" href="https://www.linkedin.com/in/adel-moreno-129474165/">LinkedIn</a><br>
-					<i class="fab fa-twitter-square fa-spin fa-2x mt-4 mr-2"></i>
+					<i class="fab fa-twitter-square fa-spin fa-2x mt-5 mr-2"></i>
 					<a class="contact-links" href="https://twitter.com/AdelMoreno5">Twitter</a>
 				</div>
 			<form class="col-md-5 ml-auto mt-2">
