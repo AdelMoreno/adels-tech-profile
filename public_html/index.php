@@ -62,13 +62,6 @@
 				</div>
 			</div>
 		</div>
-<!--		<div class="container-fluid text-center about-me mb-5">-->
-<!--			<div class="row">-->
-<!--				<div class="col-md">-->
-<!--			<p>This area will be all about me!</p>-->
-<!--			</div>-->
-<!--		</div>-->
-<!--		</div>-->
 		<div class="container-fluid text-center portfolio">
 			<div class="row">
 				<div class="col-md">
@@ -110,28 +103,28 @@
 					<i class="fab fa-twitter-square fa-spin fa-2x mt-4 mr-2"></i>
 					<a class="contact-links" href="https://twitter.com/AdelMoreno5">Twitter</a>
 				</div>
-			<form class="col-md-6 ml-auto mt-2">
+			<form class="col-md-5 ml-auto mt-2">
 				<div class="form-group">
-					<div class="col-md-8">
+					<div class="col-md-10">
 						<input type="text" class="form-control" placeholder="Name" required>
 					</div>
 				</div>
 				<div class="form-group">
-					<div class="col-md-8">
+					<div class="col-md-10">
 						<input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
 					</div>
 				</div>
 				<div class="form-group">
-					<div class="col-md-8">
+					<div class="col-md-10">
 						<input type="text" class="form-control" placeholder="Subject" required>
 					</div>
 				</div>
 				<div class="form-group">
-					<div class="col-md-8">
+					<div class="col-md-10">
 						<textarea class="form-control" placeholder="Message" rows="4" required></textarea>
 					</div>
 				</div>
-				<div id="button" class="text-right col-md-8">
+				<div class="text-right col-md-10">
 				<button class="btn btn-primary" type="submit">Submit</button>
 				</div>
 			</form>
