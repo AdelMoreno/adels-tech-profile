@@ -27,7 +27,7 @@
 					<p>Web Developer</p>
 				</div>
 			</div>
-			<nav class="navbar navbar-expand-md">
+			<nav class="navbar navbar-expand-md navbar-custom">
 				<a class="navbar-brand" href="#"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -36,7 +36,7 @@
 				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a class="nav-link" href="#home">Home |</a>
+							<a class="nav-link" href="#home">Home  <span> |</span></a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#about">About Me |</a>
@@ -120,7 +120,7 @@
 				</div>
 				<div class="form-group">
 					<div class="col-md-8">
-						<input type="text" class="form-control" placeholder=" Subject" required>
+						<input type="text" class="form-control" placeholder="Subject" required>
 					</div>
 				</div>
 				<div class="form-group">
@@ -133,11 +133,10 @@
 				</div>
 			</form>
 		</div>
-			<footer class="container-fluid">
-				<div class="row">
-					<div class="col-md text-center">
+	</div>
+			<footer>
+				<div class="text-center">
 					<p>&copy; Adel Moreno 2018</p>
-					</div>
 				</div>
 			</footer>
 	</body>

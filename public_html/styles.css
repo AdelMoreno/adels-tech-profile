@@ -68,6 +68,18 @@ div[class*="portfolio"] {
 }
 
 footer {
+	width: 100%;
+	background-color: teal;
+}
+
+.navbar-custom .navbar-nav .nav-link {
 	color: white;
 }
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+	color: white;
+	background-color: teal;
+}
+
 
