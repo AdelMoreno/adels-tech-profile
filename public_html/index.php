@@ -103,23 +103,43 @@
 				</div>
 			<form class="col-md-5 ml-auto mt-2">
 				<div class="form-group">
-					<div class="col-md-10">
+					<div class="input-group">
+						<div class="col-md-10">
+							<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-user-circle"></i></span>
 						<input type="text" class="form-control" placeholder="Name" required>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="form-group">
-					<div class="col-md-10">
+					<div class="input-group">
+						<div class="col-md-10">
+							<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-envelope"></i></span>
 						<input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="form-group">
-					<div class="col-md-10">
+					<div class="input-group">
+						<div class="col-md-10">
+							<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-info-circle"></i></span>
 						<input type="text" class="form-control" placeholder="Subject" required>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="form-group">
+					<div class="input-group">
 					<div class="col-md-10">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-comments"></i></span>
 						<textarea class="form-control" placeholder="Message" rows="4" required></textarea>
+						</div>
+					</div>
 					</div>
 				</div>
 				<div class="text-right col-md-10">
@@ -129,9 +149,10 @@
 		</div>
 		</div>
 			<footer class="container-fluid pt-3 mt-4">
-				<div class="row">
+				<div class="row pb-3">
 					<div class="col-md text-center">
-					<p>&copy; Adel Moreno 2018</p>
+						<i class="far fa-copyright"></i>
+					<span> Adel Moreno 2018</span>
 					</div>
 			</footer>
 	</body>
