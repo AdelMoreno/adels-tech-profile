@@ -10,6 +10,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha256-98vAGjEDGN79TjHkYWVD4s87rvWkdWLHPs5MC3FvFX4=" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 		<title>Adel's Tech Profile</title>
 	</head>
@@ -94,7 +95,7 @@
 			<div class="row">
 				<div class="col-md-4 text-center">
 					<h2 class="section-text" id="contact">Contact</h2>
-					<i class="fab fa-github-alt fa-spin fa-2x mt-2 mr-1"></i>
+					<i class="fab fa-github-alt fa-spin fa-2x mt-2 mr-1" data-fa-transform="flip-v"></i>
 					<a class="contact-links" href="https://github.com/AdelMoreno">Github</a><br>
 					<i class="fab fa-linkedin fa-spin fa-2x mt-4 mr-2"></i>
 					<a class="contact-links" href="https://www.linkedin.com/in/adel-moreno-129474165/">LinkedIn</a><br>
@@ -142,7 +143,11 @@
 					</div>
 					</div>
 				</div>
-				<div class="text-right col-md-10">
+				<div class="recaptcha ml-auto mr-2 col-md-7">
+					<div class="g-recaptcha" data-sitekey="your_site_key">
+					</div>
+				</div>
+				<div class="text-right mt-3 col-md-10">
 				<button class="btn btn-primary" type="submit">Submit</button>
 				</div>
 			</form>
