@@ -13,7 +13,11 @@ header {
 	background-position: center;
 	background-size: 100% 100%;
 	color: white;
-	box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.50);
+	box-shadow: 0px 0px 5px 8px rgba(0,0,0,0.40);
+}
+
+.smaller {
+	max-width: 90%;
 }
 
 .elizabeth {
@@ -48,14 +52,14 @@ div[class*="header-text"]{
 }
 
 .carousel-inner img {
-	width: 100%;
+	width: 90%;
 	height: 30em;
 	margin: auto;
 }
 
 footer {
 	background-color: teal;
-	box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.40);
+	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.40);
 	color: white;
 }
 
@@ -90,4 +94,15 @@ footer {
 .btn-primary:hover {
 	background-color: #58a39b;
 	border-color: #58a39b;
+}
+
+@keyframes fade {
+	0% {
+		opacity: 0;}
+		100% {
+			opacity: 100%;
+		}
+}
+.img-fluid{
+	animation: fade 2s linear;
 }

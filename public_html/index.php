@@ -14,16 +14,15 @@
 		<title>Adel's Tech Profile</title>
 	</head>
 	<body>
-
 		<header class="container-fluid" id="home">
 			<div class="row text-center">
 				<div class="col-md-2">
 					<img class="img-fluid ml-auto p-4" src="img_adel.jpg">
 				</div>
-				<div class="header-text col-md-3 align-self-center ml-auto mr-auto">
+				<div class="header-text col-md-3 align-self-center">
 					<p>Adel Moreno</p>
 				</div>
-				<div class="header-text col-md-7 align-self-center mr-auto ml-auto">
+				<div class="header-text col-md-7 align-self-center">
 					<p>Web Developer</p>
 				</div>
 			</div>
@@ -68,7 +67,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid text-center portfolio mb-5">
+		<div class="container-fluid smaller text-center portfolio mb-5">
 		<div id="carousel" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
@@ -97,9 +96,9 @@
 					<h2 class="section-text" id="contact">Contact</h2>
 					<i class="fab fa-github-alt fa-spin fa-2x mt-2 mr-1"></i>
 					<a class="contact-links" href="https://github.com/AdelMoreno">Github</a><br>
-					<i class="fab fa-linkedin fa-spin fa-2x mt-5 mr-2"></i>
+					<i class="fab fa-linkedin fa-spin fa-2x mt-4 mr-2"></i>
 					<a class="contact-links" href="https://www.linkedin.com/in/adel-moreno-129474165/">LinkedIn</a><br>
-					<i class="fab fa-twitter-square fa-spin fa-2x mt-5 mr-2"></i>
+					<i class="fab fa-twitter-square fa-spin fa-2x mt-4 mb-3 mr-2"></i>
 					<a class="contact-links" href="https://twitter.com/AdelMoreno5">Twitter</a>
 				</div>
 			<form class="col-md-5 ml-auto mt-2">
