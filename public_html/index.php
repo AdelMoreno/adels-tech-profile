@@ -18,7 +18,7 @@
 		<header class="container-fluid" id="home">
 			<div class="row text-center">
 				<div class="col-md-2">
-					<img class="img-fluid ml-auto p-4" src="img_adel.jpg">
+					<img class="img-fluid ml-auto p-4" src="img_adel.jpg" alt="picture of Adel">
 				</div>
 				<div class="header-text col-md-3 align-self-center">
 					<p>Adel Moreno</p>
