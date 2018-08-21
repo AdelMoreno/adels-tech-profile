@@ -143,7 +143,7 @@
 					</div>
 					</div>
 				</div>
-				<div class="recaptcha ml-auto mr-2 col-md-7">
+				<div class="recaptcha ml-auto mr-auto col-md-7">
 					<div class="g-recaptcha" data-sitekey="your_site_key">
 					</div>
 				</div>

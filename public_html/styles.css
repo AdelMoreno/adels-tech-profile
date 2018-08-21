@@ -96,18 +96,14 @@ footer {
 	border-color: #58a39b;
 }
 
-@keyframes fade {
-	0% {
-		opacity: 0;}
-		100% {
-			opacity: 100%;
-		}
-}
+/*@keyframes fade {*/
+	/*0% {*/
+		/*opacity: 0;}*/
+		/*100% {*/
+			/*opacity: 100%;*/
+		/*}*/
+/*}*/
 .img-fluid{
 	animation: fade 2s linear;
 }
 
-.g-recaptcha {
-	justify-content: right;
-
-}
