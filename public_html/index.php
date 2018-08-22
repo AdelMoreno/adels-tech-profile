@@ -159,5 +159,6 @@
 						<i class="far fa-copyright"></i>
 					<span> Adel Moreno 2018</span>
 					</div>
+				</div>
 			</footer>
 	</body>
