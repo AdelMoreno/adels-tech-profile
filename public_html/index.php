@@ -69,7 +69,7 @@
 			</div>
 		</div>
 		<div class="container-fluid smaller text-center portfolio mb-5">
-		<div id="carousel" class="carousel slide" data-ride="carousel">
+		<div id="carousel" class="carousel slide" data-ride="carousel" data-pause="hover">
 			<ol class="carousel-indicators">
 				<li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
 				<li data-target="#carouselIndicators" data-slide-to="1"></li>
