@@ -96,14 +96,7 @@ footer {
 	border-color: #58a39b;
 }
 
-/*@keyframes fade {*/
-	/*0% {*/
-		/*opacity: 0;}*/
-		/*100% {*/
-			/*opacity: 100%;*/
-		/*}*/
-/*}*/
 .img-fluid{
-	animation: fade 2s linear;
+	max-height: 250px;
 }
 
