@@ -92,8 +92,8 @@ footer {
 }
 
 .btn-primary:hover {
-	background-color: #58a39b;
-	border-color: #58a39b;
+	background-color: #58a39b !important;
+	border-color: #58a39b !important;
 }
 
 .img-fluid{
