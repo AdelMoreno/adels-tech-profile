@@ -72,8 +72,7 @@
 		<div id="carousel" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img class="d-block w-100 top" src="http://placekitten.com/300/200" alt="First slide">
-					<img class="bottom" src="http://placekitten.com/100/100"
+					<img class="d-block w-100" src="http://placekitten.com/300/200" alt="First slide">
 				</div>
 				<div class="carousel-item">
 					<img class="d-block w-100" src="http://placekitten.com/250/200" alt="Second slide">
