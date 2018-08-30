@@ -164,7 +164,7 @@
 					</div>
 				</div>
 				<div class="recaptcha ml-auto mr-auto col-md-7">
-					<div class="g-recaptcha" data-sitekey="your_site_key">
+					<div class="g-recaptcha" data-sitekey="6LcAYG0UAAAAANFKl0A9s0giNlkVMhDoEM2FG-cH"></div>
 					</div>
 				</div>
 				<div class="text-right mt-3 col-md-10">
