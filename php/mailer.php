@@ -6,10 +6,11 @@
  * library with Google reCAPTCHA integration.
  *
  * @author Rochelle Lewis <rlewis37@cnm.edu>
+ * @author Adel Moreno <amoreno28@cnm.edu>
  **/
 
 // require all composer dependencies
-require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
+require_once(dirname(__DIR__, 1) . "/vendor/autoload.php");
 
 // require mail-config.php
 require_once("mail-config.php");
@@ -47,7 +48,7 @@ try {
 	 * Attach the recipients to the message.
 	 * $MAIL_RECIPIENTS is set in mail-config.php
 	 **/
-	$recipients = $MAIL_RECIPIENTS;
+	$recipients = ["adelsilvahurley@gmail.com" => "Adel Moreno"];
 	$swiftMessage->setTo($recipients);
 
 	// attach the subject line to the message

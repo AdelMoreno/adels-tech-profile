@@ -4,13 +4,13 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width-device-width, initial-scale=1, shrink-to-fit=no">
 
-		<!--bootstrap and custome css-->
+		<!--bootstrap and custom css-->
 		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 		<link href="styles.css" rel="stylesheet" type="text/css">
 
 		<!--popper and bootstrap js-->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></head>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha256-98vAGjEDGN79TjHkYWVD4s87rvWkdWLHPs5MC3FvFX4=" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
@@ -22,7 +22,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js" integrity="sha256-F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js" integrity="sha256-0Yg/eibVdKyxkuVo1Qwh0DspoUCHvSbm/oOoYVz32BQ=" crossorigin="anonymous"></script>
 
-		<script src="../js/form-validate.js"></script>
+		<script src="../js/jquery-validate.js"></script>
 
 		<title>Adel's Tech Profile</title>
 	</head>
@@ -134,7 +134,7 @@
 						<div class="col-md-10">
 							<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-user-circle"></i></span>
-						<input type="text" class="form-control" placeholder="Name" required>
+						<input type="text" id="name" name="name" class="form-control" placeholder="Name">
 							</div>
 						</div>
 					</div>
@@ -144,7 +144,7 @@
 						<div class="col-md-10">
 							<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-envelope"></i></span>
-						<input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+						<input type="email" class="form-control" name="email" id="email" placeholder="Email">
 							</div>
 						</div>
 					</div>
@@ -154,7 +154,7 @@
 						<div class="col-md-10">
 							<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-info-circle"></i></span>
-						<input type="text" class="form-control" placeholder="Subject" required>
+						<input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
 							</div>
 						</div>
 					</div>
@@ -164,7 +164,7 @@
 					<div class="col-md-10">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-comments"></i></span>
-						<textarea class="form-control" placeholder="Message" rows="4" required></textarea>
+						<textarea class="form-control" id="message" name="message" placeholder="Message" rows="4"></textarea>
 						</div>
 					</div>
 					</div>
@@ -172,12 +172,12 @@
 				<div class="recaptcha ml-auto mr-auto col-md-7">
 					<div class="g-recaptcha" data-sitekey="6LcAYG0UAAAAANFKl0A9s0giNlkVMhDoEM2FG-cH"></div>
 					</div>
-				</div>
 				<div class="text-right mt-3 col-md-10">
 				<button class="btn btn-primary" type="submit">Submit</button>
 				</div>
+				<div class="mt-3 col-md-10" id="output-area"></div>
 			</form>
-		</div>
+			</div>
 		</div>
 			<footer class="container-fluid pt-3 mt-4">
 				<div class="row pb-3">

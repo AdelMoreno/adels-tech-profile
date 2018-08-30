@@ -11,6 +11,7 @@ $(document).ready(function(){
 	 * All ids and name values must match up to your form here.
 	 *
 	 * @author Rochelle Lewis <rlewis37@cnm.edu>
+	 * @author Adel Moreno <amoreno28@cnm.edu>
 	 **/
 
 	/* begin validate function here */
