@@ -3,20 +3,26 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width-device-width, initial-scale=1, shrink-to-fit=no">
+
 		<!--bootstrap and custome css-->
 		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 		<link href="styles.css" rel="stylesheet" type="text/css">
+
 		<!--popper and bootstrap js-->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></head>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha256-98vAGjEDGN79TjHkYWVD4s87rvWkdWLHPs5MC3FvFX4=" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 		<!--google recaptcha-->
 		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 		<!--jquery form, validate, additional methods-->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js" integrity="sha256-F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js" integrity="sha256-0Yg/eibVdKyxkuVo1Qwh0DspoUCHvSbm/oOoYVz32BQ=" crossorigin="anonymous"></script>
+
+		<script src="../js/form-validate.js"></script>
 
 		<title>Adel's Tech Profile</title>
 	</head>
@@ -122,7 +128,7 @@
 					<i class="fab fa-twitter-square fa-spin fa-2x mt-4 mb-3 mr-2"></i>
 					<a class="contact-links" href="https://twitter.com/AdelMoreno5">Twitter</a>
 				</div>
-			<form class="col-md-5 ml-auto mt-2">
+			<form id="contact-form" method="post" action="../php/mailer.php" class="col-md-5 ml-auto mt-2">
 				<div class="form-group">
 					<div class="input-group">
 						<div class="col-md-10">
