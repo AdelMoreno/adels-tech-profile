@@ -69,7 +69,13 @@
 			<div class="row">
 				<div class="col-md">
 			<h2 class="section-text" id="about">About Me</h2><br>
-					<p>this area will be about me!</p>
+					<p>Hello there! My name is Adel, and I am a web developer. I'm definitely a gamer at heart, and
+					I enjoy reading in my spare time as well. I've recently just graduated from Deep Dive
+					Coding. It was a great program that instilled me with many new coding skills. I really enjoy working
+					on the frontend of websites. My strengths include html, CSS, and Javascript. If you're looking to hire
+					someone to build a website, then I'm the person you are looking for! Feel free to contact me through
+					any of my socials below, or send me an email using the form. I look forward to hearing from you,
+					thanks for stopping by!</p>
 				</div>
 			</div>
 		</div>
