@@ -74,7 +74,7 @@
 					Coding. It was a great program that instilled me with many new coding skills. I really enjoy working
 					on the frontend of websites. My strengths include html, CSS, and Javascript. If you're looking to hire
 					someone to build a website, then I'm the person you are looking for! Feel free to contact me through
-					any of my socials below, or send me an email using the form. I look forward to hearing from you,
+					any of my socials below, or send me an email using the form. I look forward to hearing from you, and
 					thanks for stopping by!</p>
 				</div>
 			</div>
@@ -100,12 +100,16 @@
 						<h3>First Label</h3>
 					</div>
 				</div>
+
 				<div class="carousel-item">
-					<img class="d-block w-100" src="http://placekitten.com/250/200" alt="Second slide">
+					<a href="https://bootcamp-coders.cnm.edu/~amoreno28/pro-dev/adel_moreno_pro_dev.html" target="_blank">
+					<img class="d-block w-100" src="pro-dev-picture.JPG" alt="Second slide">
 					<div class="carousel-caption d-none d-md-block">
 						<h3>Second Label</h3>
 					</div>
+					</a>
 				</div>
+
 				<div class="carousel-item">
 					<img class="d-block w-100" src="http://placekitten.com/280/200" alt="Third slide">
 					<div class="carousel-caption d-none d-md-block">
