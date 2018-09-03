@@ -82,12 +82,11 @@ footer {
 }
 
 .carousel-indicators li {
-	color: black;
 	background-color: grey;
 }
 
 .carousel-indicators .active {
-	background-color: black;
+	background-color: #1a543f;
 }
 
 .carousel-caption {
