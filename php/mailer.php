@@ -27,8 +27,6 @@ try {
 
 	/**
 	 * Sanitize the inputs from the form: name, email, subject, and message.
-	 * This assumes jQuery (NOT Angular!) will be AJAX submitting the form,
-	 * so we're using the $_POST superglobal.
 	 **/
 	$name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
@@ -40,13 +38,11 @@ try {
 
 	/**
 	 * Attach the sender to the message.
-	 * This takes the form of an associative array where $email is the key for the real name.
 	 **/
 	$swiftMessage->setFrom([$email => $name]);
 
 	/**
 	 * Attach the recipients to the message.
-	 * $MAIL_RECIPIENTS is set in mail-config.php
 	 **/
 	$recipients = ["adelsilvahurley@gmail.com" => "Adel Moreno"];
 	$swiftMessage->setTo($recipients);
@@ -61,14 +57,7 @@ try {
 	$swiftMessage->addPart(html_entity_decode($message), "text/plain");
 
 	/**
-	 * Send the Email via SMTP. The SMTP server here is configured to relay
-	 * everything upstream via your web host.
-	 *
-	 * This default may or may not be available on all web hosts;
-	 * consult their documentation/support for details.
-	 *
-	 * SwiftMailer supports many different transport methods; SMTP was chosen
-	 * because it's the most compatible and has the best error handling.
+	 * Send the Email via SMTP.
 	 *
 	 * @see http://swiftmailer.org/docs/sending.html Sending Messages - Documentation - SwitftMailer
 	 **/
