@@ -112,7 +112,7 @@
 				</div>
 				<div class="carousel-item">
 					<a href="https://bootcamp-coders.cnm.edu/~amoreno28/bootstrap-challenge/bootstrap.html" target="_blank">
-					<img class="d-block w-100" src="bootstrap-challenge.JPG" alt="Third slide">
+					<img class="d-block w-100" src="dog.jpg" alt="Third slide">
 					<div class="carousel-caption d-none d-md-block">
 						<h3>Bootstrap Challenge</h3>
 					</div>
