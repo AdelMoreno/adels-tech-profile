@@ -184,7 +184,7 @@
 				<div class="recaptcha ml-auto mr-auto col-md-7">
 					<div class="g-recaptcha" data-sitekey="6LcAYG0UAAAAANFKl0A9s0giNlkVMhDoEM2FG-cH"></div>
 					</div>
-				<div class="text-right mt-3 col-md-10">
+				<div class="text-right ml-auto mr-auto mt-3 col-md-8">
 				<button class="btn btn-primary" type="submit">Submit</button>
 				</div>
 				<div class="mt-3 col-md-10" id="output-area"></div>
