@@ -102,7 +102,6 @@
 					</div>
 					</a>
 				</div>
-
 				<div class="carousel-item">
 					<a href="https://bootcamp-coders.cnm.edu/~amoreno28/pro-dev/adel_moreno_pro_dev.html" target="_blank">
 					<img class="d-block w-100" src="images/pro-dev-picture.JPG" alt="Second slide">
