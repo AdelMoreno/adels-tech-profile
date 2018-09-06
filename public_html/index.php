@@ -22,7 +22,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js" integrity="sha256-F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js" integrity="sha256-0Yg/eibVdKyxkuVo1Qwh0DspoUCHvSbm/oOoYVz32BQ=" crossorigin="anonymous"></script>
 
-		<script src="../js/jquery-validate.js"></script>
+		<script src="js/jquery-validate.js"></script>
 
 		<title>Adel's Tech Profile</title>
 	</head>
@@ -30,7 +30,7 @@
 		<header class="container-fluid" id="home">
 			<div class="row text-center">
 				<div class="col-md-2">
-					<img class="img-fluid ml-auto p-4" src="img_adel.jpg" alt="picture of Adel">
+					<img class="img-fluid ml-auto p-4" src="images/img_adel.jpg" alt="picture of Adel">
 				</div>
 				<div class="header-text col-md-3 align-self-center">
 					<p>Adel Moreno</p>
@@ -96,15 +96,16 @@
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<a href="" target="_blank">
-					<img class="d-block w-100" src="lost-paws-picture.JPG" alt="First slide">
+					<img class="d-block w-100" src="images/lost-paws-picture.JPG" alt="First slide">
 					<div class="carousel-caption d-none d-md-block">
 						<h3>Lost Paws</h3>
 					</div>
 					</a>
 				</div>
+
 				<div class="carousel-item">
 					<a href="https://bootcamp-coders.cnm.edu/~amoreno28/pro-dev/adel_moreno_pro_dev.html" target="_blank">
-					<img class="d-block w-100" src="pro-dev-picture.JPG" alt="Second slide">
+					<img class="d-block w-100" src="images/pro-dev-picture.JPG" alt="Second slide">
 					<div class="carousel-caption caption-2 d-none d-md-block">
 						<h3>Professional Development</h3>
 					</div>
@@ -112,11 +113,10 @@
 				</div>
 				<div class="carousel-item">
 					<a href="https://bootcamp-coders.cnm.edu/~amoreno28/bootstrap-challenge/bootstrap.html" target="_blank">
-					<img class="d-block w-100" src="dog.jpg" alt="Third slide">
+					<img class="d-block w-100" src="images/dog.jpg" alt="Third slide">
 					<div class="carousel-caption d-none d-md-block">
 						<h3>Bootstrap Challenge</h3>
 					</div>
-				</div>
 				</a>
 			</div>
 			<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
@@ -127,6 +127,7 @@
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="sr-only">Next</span>
 			</a>
+		</div>
 		</div>
 		</div>
 		<div class="container-fluid">
@@ -140,7 +141,7 @@
 					<i class="fab fa-twitter-square fa-spin fa-2x mt-4 mb-3 mr-2"></i>
 					<a class="contact-links" href="https://twitter.com/AdelMoreno5">Twitter</a>
 				</div>
-			<form id="contact-form" method="post" action="../php/mailer.php" class="col-md-5 ml-auto mt-2">
+			<form id="contact-form" method="post" action="php/mailer.php" class="col-md-5 ml-auto mt-2">
 				<div class="form-group">
 					<div class="input-group">
 						<div class="col-md-10">
