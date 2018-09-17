@@ -59,7 +59,7 @@
 							<a class="nav-link" href="#contact">Contact |</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="adel_moreno_resume.pdf" target="_blank">Resume</a>
+							<a class="nav-link" href="adel-moreno-resume.pdf" target="_blank">Resume</a>
 						</li>
 					</ul>
 				</div>
